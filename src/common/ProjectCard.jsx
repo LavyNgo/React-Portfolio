@@ -8,4 +8,4 @@ function ProjectCard({ src, link, h3, para }) {
     )
 }
 
-export default ProjectCard
+export default ProjectCard  
