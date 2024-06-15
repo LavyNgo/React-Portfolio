@@ -22,11 +22,6 @@
         transform: scale(1.1, 1.1);
     }
 
-    .projectsContainer:hover a:not(:hover) {
-        filter: blur(5px);
-        transform: scale(0.9, 0.9);
-    }
-
     p {
         font-size: 12px;
         /* word-break:break-all; */
@@ -50,5 +45,10 @@
         flex-wrap: wrap;
         justify-content: space-evenly;
         padding: 0 30px;
+    }
+
+    .projectsContainer:hover a:not(:hover) {
+        filter: blur(5px);
+        transform: scale(0.9, 0.9);
     }
 }
